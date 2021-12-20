@@ -54,6 +54,10 @@ object Deployteamplate : Template({
     enablePersonalBuilds = false
     type = BuildTypeSettings.Type.DEPLOYMENT
     maxRunningBuilds = 1
+
+    params {
+        param("branch_name", "abc")
+    }
 })
 
 object HttpsGithubComChubatovaTigerCommitstatuses : GitVcsRoot({
