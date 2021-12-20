@@ -63,6 +63,21 @@ object id74411tmpl : BuildType({
     }
 })
 
+object id74411tmpl : BuildType({
+    templates(Deployteamplate)
+    id("74411tmplDSL")
+    name = "74411-tmplDSL"
+
+    params {
+        param("branch_name", "main")
+    }
+
+    vcs {
+        root(HttpsGithubComChubatovaTigerCommitstatuses)
+    }
+})
+
+
 object Deployteamplate : Template({
     name = "deployteamplate"
 
