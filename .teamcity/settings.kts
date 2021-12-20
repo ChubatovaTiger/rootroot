@@ -50,6 +50,10 @@ object id74411 : BuildType({
 
 object Deployteamplate : Template({
     name = "deployteamplate"
+
+    enablePersonalBuilds = false
+    type = BuildTypeSettings.Type.DEPLOYMENT
+    maxRunningBuilds = 1
 })
 
 object HttpsGithubComChubatovaTigerCommitstatuses : GitVcsRoot({
