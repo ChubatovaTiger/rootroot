@@ -92,7 +92,7 @@ object Deployteamplate : Template({
 
 object HttpsGithubComChubatovaTigerCommitstatuses : GitVcsRoot({
     name = "https://github.com/ChubatovaTiger/commitstatuses"
-    url = "https://git@github.com/ChubatovaTiger/rootroot.git"
+    url = "https://git@github.com/ChubatovaTiger/commitstatuses.git"
     branch = "%branch_name%"
     branchSpec = "+:refs/heads/*"
     authMethod = password {
