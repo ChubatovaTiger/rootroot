@@ -77,11 +77,10 @@ object Deployteamplate : Template({
 
 object HttpsGithubComChubatovaTigerCommitstatuses : GitVcsRoot({
     name = "https://github.com/ChubatovaTiger/commitstatuses"
-    url = "git@github.com:ChubatovaTiger/commitstatuses.git"
+    url = "https://git@github.com/ChubatovaTiger/rootroot.git"
     branch = "%branch_name%"
     branchSpec = "+:refs/heads/*"
-    authMethod = uploadedKey {
-        uploadedKey = "id_rsa_tc_tiger"
-        passphrase = "credentialsJSON:c6ac2c5c-1b3d-44c0-bd98-04d75dda453a"
+    authMethod = password {
+        password = "credentialsJSON:6d0e3a4f-5b43-4ca9-adba-25e4e4e8b8a4"
     }
 })
