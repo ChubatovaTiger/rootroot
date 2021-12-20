@@ -30,6 +30,8 @@ project {
     vcsRoot(HttpsGithubComChubatovaTigerCommitstatuses)
 
     buildType(id74411)
+
+    template(Deployteamplate)
 }
 
 object id74411 : BuildType({
@@ -44,6 +46,10 @@ object id74411 : BuildType({
         root(HttpsGithubComChubatovaTigerCommitstatuses)
         root(DslContext.settingsRoot, "+:. => versioned")
     }
+})
+
+object Deployteamplate : Template({
+    name = "deployteamplate"
 })
 
 object HttpsGithubComChubatovaTigerCommitstatuses : GitVcsRoot({
