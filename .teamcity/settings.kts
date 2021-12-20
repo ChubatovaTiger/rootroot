@@ -81,6 +81,7 @@ object HttpsGithubComChubatovaTigerCommitstatuses : GitVcsRoot({
     branch = "%branch_name%"
     branchSpec = "+:refs/heads/*"
     authMethod = password {
+        userName = "ChubatovaTiger"
         password = "credentialsJSON:6d0e3a4f-5b43-4ca9-adba-25e4e4e8b8a4"
     }
 })
