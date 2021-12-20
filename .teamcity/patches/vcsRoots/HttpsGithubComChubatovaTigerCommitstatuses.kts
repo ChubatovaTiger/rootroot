@@ -27,7 +27,7 @@ changeVcsRoot(RelativeId("HttpsGithubComChubatovaTigerCommitstatuses")) {
     }
 
     (this as GitVcsRoot).apply {
-        url = "git@github.com/ChubatovaTiger/commitstatuses.git"
+        url = "git@github.com:ChubatovaTiger/commitstatuses.git"
         authMethod = uploadedKey {
             userName = "ChubatovaTiger"
             uploadedKey = "id_rsa_tc_tiger"
