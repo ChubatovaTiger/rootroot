@@ -73,7 +73,7 @@ object id74411tmplDSL : BuildType({
     }
 
     vcs {
-        root(HttpsGithubComChubatovaTigerCommitstatuses)
+        root(VcsRoots.HttpsGithubComChubatovaTigerCommitstatuses)
     }
 })
 
