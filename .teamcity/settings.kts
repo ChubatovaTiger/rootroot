@@ -57,6 +57,10 @@ object id74411tmpl : BuildType({
     params {
         param("branch_name", "main")
     }
+
+    vcs {
+        root(HttpsGithubComChubatovaTigerCommitstatuses)
+    }
 })
 
 object Deployteamplate : Template({
