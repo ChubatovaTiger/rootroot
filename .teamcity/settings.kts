@@ -40,7 +40,7 @@ object id74411 : BuildType({
     name = "74411"
 
     params {
-        param("branch_name", "main")
+        param("branch_name", "main9")
     }
 
     vcs {
