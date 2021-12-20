@@ -27,10 +27,7 @@ changeVcsRoot(RelativeId("HttpsGithubComChubatovaTigerCommitstatuses")) {
     }
 
     (this as GitVcsRoot).apply {
-        authMethod = password {
-            userName = "ChubatovaTiger"
-            password = "credentialsJSON:af568984-ff76-4ca5-85b1-e7dfd327fa41"
-        }
+        url = "https://git@github.com/ChubatovaTiger/commitstatuses.git"
     }
 
 }
