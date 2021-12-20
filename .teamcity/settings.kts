@@ -95,9 +95,5 @@ object HttpsGithubComChubatovaTigerCommitstatuses : GitVcsRoot({
     url = "https://git@github.com/ChubatovaTiger/commitstatuses.git"
     branch = "%branch_name%"
     branchSpec = "+:refs/heads/*"
-        authMethod = uploadedKey {
-            userName = "ChubatovaTiger"
-            password = "%pwd%"
 
-        }
 })
