@@ -59,6 +59,10 @@ object id74411tmpl : BuildType({
     id("74411tmpl")
     name = "74411-tmpl"
 
+    params {
+        param("branch_name", "master")
+    }
+
     vcs {
         root(HttpsGithubComChubatovaTigerCommitstatuses)
     }
