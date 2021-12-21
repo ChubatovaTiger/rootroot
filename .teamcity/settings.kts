@@ -65,6 +65,8 @@ object id74411tmpl : BuildType({
 
     vcs {
         root(HttpsGithubComChubatovaTigerCommitstatuses)
+
+        checkoutMode = CheckoutMode.ON_SERVER
     }
 })
 
