@@ -34,6 +34,10 @@ project {
     buildType(id74411tmplBr1)
 
     template(Deployteamplate)
+
+    params {
+        password("tigertoken", "credentialsJSON:3d2d86bb-65ab-4885-8d3e-802ac1783e93")
+    }
 }
 
 object id74411 : BuildType({
