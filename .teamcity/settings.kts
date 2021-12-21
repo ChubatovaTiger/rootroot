@@ -95,8 +95,8 @@ object HttpsGithubComChubatovaTigerCommitstatuses : GitVcsRoot({
     url = "git@github.com:ChubatovaTiger/commitstatuses.git"
     branch = "%branch_name%"
     branchSpec = "+:refs/heads/*"
-    authMethod = uploadedKey {
-        uploadedKey = "id_rsa_tc_tiger"
-        passphrase = "credentialsJSON:c6ac2c5c-1b3d-44c0-bd98-04d75dda453a"
+    authMethod = password {
+        userName = ChubatovaTiger
+        password = "credentialsJSON:3d2d86bb-65ab-4885-8d3e-802ac1783e93"
     }
 })
