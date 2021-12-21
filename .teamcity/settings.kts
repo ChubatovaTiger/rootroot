@@ -66,7 +66,7 @@ object id74411tmplBr1 : BuildType({
     name = "74411-tmpl-br1"
 
     params {
-        param("branch_name", "br1")
+        param("branch_name", "br1-1")
     }
 
     vcs {
