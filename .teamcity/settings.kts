@@ -60,7 +60,7 @@ object id74411tmpl : BuildType({
     name = "74411-tmpl"
 
     params {
-        param("branch_name", "master")
+        param("branch_name", "main")
     }
 
     vcs {
