@@ -69,14 +69,6 @@ object id74411tmpl : BuildType({
 
         checkoutMode = CheckoutMode.ON_SERVER
     }
-
-    steps {
-        script {
-            name = "tmplstep (1)"
-            id = "RUNNER_219"
-            scriptContent = "echo c"
-        }
-    }
 })
 
 object id74411tmplBr1 : BuildType({
