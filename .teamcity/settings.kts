@@ -75,6 +75,11 @@ object id74411tmpl : BuildType({
             id = "RUNNER_215"
             scriptContent = "a"
         }
+        script {
+            name = "tmplstep"
+            id = "RUNNER_216"
+            scriptContent = "echo b"
+        }
     }
 })
 
