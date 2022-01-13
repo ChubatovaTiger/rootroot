@@ -108,7 +108,7 @@ object Deployteamplate : Template({
         script {
             name = "tmplstep"
             id = "RUNNER_216"
-            scriptContent = "echo a"
+            scriptContent = "echo m"
         }
     }
 })
