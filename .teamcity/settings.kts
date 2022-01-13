@@ -79,7 +79,7 @@ object id74411tmpl : BuildType({
         script {
             name = "tmplstep"
             id = "RUNNER_216"
-            scriptContent = "echo mll"
+            scriptContent = "echo nm"
         }
     }
 })
