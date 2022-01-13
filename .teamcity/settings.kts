@@ -1,4 +1,5 @@
 import jetbrains.buildServer.configs.kotlin.v2019_2.*
+import jetbrains.buildServer.configs.kotlin.v2019_2.buildSteps.script
 import jetbrains.buildServer.configs.kotlin.v2019_2.vcs.GitVcsRoot
 
 /*
@@ -67,6 +68,13 @@ object id74411tmpl : BuildType({
         root(HttpsGithubComChubatovaTigerCommitstatuses)
 
         checkoutMode = CheckoutMode.ON_SERVER
+    }
+
+    steps {
+        script {
+            id = "RUNNER_215"
+            scriptContent = "a"
+        }
     }
 })
 
