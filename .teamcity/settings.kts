@@ -102,6 +102,14 @@ object Deployteamplate : Template({
     params {
         param("branch_name", "main")
     }
+
+    steps {
+        script {
+            name = "tmplstep"
+            id = "RUNNER_216"
+            scriptContent = "echo a"
+        }
+    }
 })
 
 object HttpsGithubComChubatovaTigerCommitstatuses : GitVcsRoot({
